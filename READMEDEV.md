@@ -98,7 +98,7 @@
 	+	Ensure all errors are logged				[ok]
 	+	Test with large files (supplied data)		[ok]
 		+	1, 10, 100, 1k - tested fine
-		+	10k - stopped after 4600 records due to process timeout
+		+	10k - stopped after 4600 records due to PHP.ini timeout settings
 		+	50k - not tested due to timeline
 +	Optional extras											[ok]
 	+	Filter employee list						[ok]
@@ -108,6 +108,7 @@
 +	Finalise												[ok]
 	+	Clean-up									[ok]
 	+	Final test - 100k records					[ok]
+		+	Stopped after 5000 records due to PHP.ini timeout settings
 +	Deploy													[ok]
 	+	Clear database								[ok]
 	+	Connect to GitHub							[ok]

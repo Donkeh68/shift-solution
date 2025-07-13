@@ -5,8 +5,8 @@
 +	Remember to set the following values in your php.ini:
 	+	upload_max_filesize (32M)
 	+	post_max_size (32M)
-	+	max_execution_time (1200)
-	+	max_input_time (600)
+	+	max_execution_time (60000 should be far more than what is needed, depending on server config)
+	+	max_input_time (600 should be far more than needed)
 +	Uploading of > 200 rows does take time on the dev environment
 +	Pagination and filter values do not persist across shift and employee sub-pages
 

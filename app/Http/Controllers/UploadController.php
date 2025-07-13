@@ -26,12 +26,6 @@ class UploadController extends Controller
 
         // Process CSV file
         $result = "busy";
-
-        //ini_set('max_execution_time', 6000);
-        //ini_set('memory_limit', -1);
-        //ini_set('max_execution_time', 60000000000);
-        //ini_set('memory_limit', -1);
-
         $file = $request->file('csv');
         $storedFile = $file->store('csv', 'public');
         dispatch(new ProcessImportJob(storage_path('app/public/' . $storedFile)));
