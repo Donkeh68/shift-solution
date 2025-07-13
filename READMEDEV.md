@@ -110,7 +110,7 @@
 	+	Final test - 100k records					[ok]
 +	Deploy													[...]
 	+	Clear database								[...]
-	+	Connect to GitHub							[]
+	+	Connect to GitHub							[...]
 	+	Store in repo								[]
 	+	Share link									[]
 
