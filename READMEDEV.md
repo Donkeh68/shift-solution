@@ -108,9 +108,8 @@
 +	Finalise												[ok]
 	+	Clean-up									[ok]
 	+	Final test - 100k records					[ok]
-+	Deploy													[...]
-	+	Clear database								[...]
-	+	Connect to GitHub							[...]
-	+	Store in repo								[]
-	+	Share link									[]
++	Deploy													[ok]
+	+	Clear database								[ok]
+	+	Connect to GitHub							[ok]
+	+	Store in repo								[ok]
 
